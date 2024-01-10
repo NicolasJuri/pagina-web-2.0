@@ -21,11 +21,11 @@ $pdf->Output($nombreArchivoPDF, 'F');
 
 // Enviar el PDF por correo electrónico
 require_once('phpmailer/PHPMailerAutoload.php');
-$correoDestino = 'nico_204@hotmail.com';
+$correoDestino = 'ejemplo@hotmail.com';
 $asuntoCorreo = 'Mi Pedido';
 $mensajeCorreo = 'Adjunto se encuentra tu pedido.';
 $nombreRemitente = 'Natural Mix';
-$correoRemitente = 'nico_204@hotmail.com';
+$correoRemitente = 'ejemplo@hotmail.com';
 
 $mail = new PHPMailer;
 $mail->isSMTP();
