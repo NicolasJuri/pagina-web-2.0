@@ -290,7 +290,7 @@ function borrarCantidadDelCarrito(idProducto, cantidad) {
     mensaje += '\nTotal Pedido: ' + totalPedido;
 
     // Obtener el número de WhatsApp
-    var numeroWhatsApp = '543434703063'; // Reemplaza "TUNUMERO" por el número de WhatsApp de tu empresa
+    var numeroWhatsApp = '54343112233';
 
     // Construir la URL de WhatsApp con el mensaje predefinido
     var encodedMensaje = encodeURIComponent(mensaje);
